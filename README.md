@@ -29,7 +29,11 @@ O que é: Uma ferramenta de gerenciamento de projetos e automação de build, pr
 
 # Relação entre Maven, Actuator, Micrometer e Prometheus
    _Maven_ é usado para gerenciar o projeto e suas dependências, incluindo as bibliotecas Spring Boot, Actuator e Micrometer.
+   
    _Actuator_ expõe endpoints de gerenciamento e métricas de uma aplicação Spring Boot, facilitando o monitoramento.
+   
    _Micrometer_ serve como uma camada de instrumentação que coleta métricas e as fornece para sistemas de monitoramento como o Prometheus.
+   
    _Prometheus_ coleta as métricas expostas pela aplicação (via Actuator e Micrometer) para monitoramento e análise.
+   
 Essas ferramentas juntas formam uma stack poderosa para o desenvolvimento, gerenciamento, e monitoramento de aplicações Java, especialmente no ecossistema Spring.
