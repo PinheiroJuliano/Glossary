@@ -9,6 +9,16 @@ O que é: Uma ferramenta de gerenciamento de projetos e automação de build, pr
     Automação do processo de build (compilação, testes, empacotamento).
     Organização de projetos seguindo uma estrutura padrão.
     Suporte a plugins para estender funcionalidades.
+# Spring Boot
+ - O que é: É um framework Java baseado no Spring Framework que simplifica o desenvolvimento de aplicativos, especialmente web, permitindo criar aplicações prontas para produção com configuração mínima.
+ - Principais recursos do Spring Boot:
+   
+   Configuração Automática: Ajusta automaticamente muitos aspectos do aplicativo, reduzindo a necessidade de configuração manual.
+   Standalone: Permite que as aplicações sejam executadas de forma independente, sem precisar de um servidor de aplicativos separado.
+   Maven/Gradle: Suporta construção de projetos com Maven ou Gradle, facilitando o gerenciamento de dependências.
+   Facilidade de Testes: Oferece ferramentas para testes de integração e unitários.
+   Segurança: Integra facilmente com o Spring Security para autenticação e autorização.
+
 # Spring Boot Actuator
  - O que é: Um módulo do Spring Boot que adiciona funcionalidades de monitoramento e gerenciamento para aplicações.
  - Principais Funcionalidades:
